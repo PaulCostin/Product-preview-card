@@ -1,0 +1,78 @@
+body{
+    max-height: 100vh;
+    margin: 0;
+    background-color:hsl(30, 38%, 92%) ;
+}
+.img{
+    width: 50%;
+    height:auto;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+h1{
+    line-height: 1;
+    font-family: Fraunces;
+}
+h5{
+    letter-spacing: 3px;
+    font-weight: 500;
+    color:hsl(228, 12%, 48%);
+    margin:0;
+}
+p{
+    font-size: 14px;
+    font-weight: 500;
+    color:hsl(228, 12%, 48%);
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    margin: 7rem 30%;
+    display: flex;
+    border-radius: 15px;
+}
+
+.text{
+    line-height: 1.5;
+    letter-spacing: -1px;
+    font-family: Montserrat;
+    margin: 5% 8% 0 5% ;
+    text-align: left;
+}
+
+.cart{
+    text-align: center;
+    height: 50px;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 5px;
+    color:hsl(0, 0%, 100%);
+}
+.img1{
+    position: relative;
+    top: 12px;
+    vertical-align: top;
+    margin: 5px;
+    width: 15px;
+    height: auto;
+}
+strike{
+    font-size: 14px;
+    color:hsl(228, 12%, 48%);
+    position: relative;
+    left: 150px;
+    bottom: 50px;
+}
+.price{
+    color:hsl(158, 36%, 37%);
+}
+
+span{
+    position: relative;
+    top:13px;
+}
+
+@media screen and (max-width:375px){
+
+}
+    
